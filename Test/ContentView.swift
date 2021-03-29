@@ -6,11 +6,14 @@
 //
 
 import SwiftUI
+import Framework1
+import SnipeitKit
+
 
 struct ContentView: View {
+    let client = SnipeitClient()
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        One()
     }
 }
 
